@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #101213;
+  color: #b8b4b0;
+}
+
+h2 {
+  color: #45bbff;
+  font-size: 2.5vw;
+  margin-left: 40vw;
+  font-family: "Roboto Slab", serif;
+}
+
+h3 {
+  color: #44b844;
+  font-size: 2.25vw;
+  margin-left: 20vw;
+}
+
+#first-para {
+  font-size: 2vw;
+  text-align: center;
+}
+
+#title {
+  color: #ff5700;
+  font-size: 3vw;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+#github {
+  color: #3e4b14;
+}
+
+#linkedin {
+  color: #007bb5;
+}
+
+#mit {
+  color: #bb0a0a;
+}
+
+#gmail {
+  color: aquamarine;
+}
+
+#introduction {
+  font-size: 1.5vw;
+  text-align: left;
+  width: 55vw;
+  margin: 8vw 0 8vw 40vw; /* all except right*/
+  font-family: "Open Sans", sans-serif;
+}
+
+#languages {
+  font-size: 1.5vw;
+  margin: 4vw 0 8vw 0; /* top and bottom */
+  font-family: "Open Sans", sans-serif;
+}
+
+#me-img {
+  max-width: 25%;
+  width: 20vw;
+  height: auto;
+  border-radius: 50%;
+}
