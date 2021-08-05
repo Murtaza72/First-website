@@ -3,19 +3,19 @@
 }
 
 body {
-  background-color: #101213;
-  color: #b8b4b0;
+  background-color: rgb(8, 9, 9);
+  color: rgb(184, 180, 176);
 }
 
 h2 {
-  color: #45bbff;
+  color: rgb(43, 135, 205);
   font-size: 2.5vw;
   margin-left: 40vw;
   font-family: "Roboto Slab", serif;
 }
 
 h3 {
-  color: #44b844;
+  color: rgb(78, 217, 78);
   font-size: 2.25vw;
   margin-left: 20vw;
 }
@@ -25,30 +25,10 @@ h3 {
   text-align: center;
 }
 
-#github {
-  color: #3e4b14;
-}
-
-#gmail {
-  color: aquamarine;
-}
-
-#introduction {
-  font-size: 1.5vw;
-  text-align: left;
-  width: 55vw;
-  margin: 8vw 0 8vw 40vw; /* all except right*/
-  font-family: "Open Sans", sans-serif;
-}
-
 #languages {
   font-size: 1.5vw;
   margin: 4vw 0 8vw 0; /* top and bottom */
   font-family: "Open Sans", sans-serif;
-}
-
-#linkedin {
-  color: #007bb5;
 }
 
 #me-img {
@@ -63,8 +43,52 @@ h3 {
 }
 
 #title {
-  color: #ff5700;
-  font-size: 3vw;
+  color: rgb(255, 87, 0);
+  font: 3vw "Roboto Slab", serif;
+  text-shadow: 3px 3px rgb(187, 10, 10); /* Cool!*/
   text-align: center;
-  font-family: "Roboto Slab", serif;
+}
+
+.grid-container {
+  /* f */
+}
+
+.about-container {
+  /* f */
+}
+
+.footer-container {
+  /* f */
+}
+
+.fab {
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(197, 195, 193);
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.greet-container {
+  /* f */
+}
+
+.intro-text {
+  font-size: 1.5vw;
+  text-align: justify;
+  width: 55vw;
+  margin: 8vw 0 8vw 40vw; /* all except right*/
+  font-family: "Open Sans", sans-serif;
+}
+
+.intro-item {
+}
+
+.skill-container {
+  /* f */
 }
