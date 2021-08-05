@@ -25,23 +25,8 @@ h3 {
   text-align: center;
 }
 
-#title {
-  color: #ff5700;
-  font-size: 3vw;
-  text-align: center;
-  font-family: "Roboto Slab", serif;
-}
-
 #github {
   color: #3e4b14;
-}
-
-#linkedin {
-  color: #007bb5;
-}
-
-#mit {
-  color: #bb0a0a;
 }
 
 #gmail {
@@ -62,9 +47,24 @@ h3 {
   font-family: "Open Sans", sans-serif;
 }
 
+#linkedin {
+  color: #007bb5;
+}
+
 #me-img {
   max-width: 25%;
   width: 20vw;
   height: auto;
   border-radius: 50%;
+}
+
+#mit {
+  color: #bb0a0a;
+}
+
+#title {
+  color: #ff5700;
+  font-size: 3vw;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
 }
