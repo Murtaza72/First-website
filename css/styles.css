@@ -20,46 +20,16 @@ h3 {
   margin-left: 20vw;
 }
 
-#first-para {
-  font-size: 2vw;
-  text-align: center;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
-#languages {
-  font-size: 1.5vw;
-  margin: 4vw 0 8vw 0; /* top and bottom */
-  font-family: "Open Sans", sans-serif;
-}
-
-#me-img {
-  max-width: 25%;
-  width: 20vw;
-  height: auto;
-  border-radius: 50%;
-}
-
-#mit {
-  color: #bb0a0a;
-}
-
-#title {
-  color: rgb(255, 87, 0);
-  font: 3vw "Roboto Slab", serif;
-  text-shadow: 3px 3px rgb(187, 10, 10); /* Cool!*/
-  text-align: center;
-}
-
-.grid-container {
-  /* f */
-}
-
-.about-container {
-  /* f */
-}
-
-.footer-container {
-  /* f */
-}
+/* @media (min-width: 700px) {
+  .about-container {
+    flex-direction: row;
+  }
+} */
 
 .fab {
   padding: 20px;
@@ -75,20 +45,84 @@ h3 {
 }
 
 .greet-container {
-  /* f */
+  display: flex;
+  order: 1;
+  flex-direction: column;
 }
+
+.main-title {
+  order: 1;
+}
+
+#title {
+  color: rgb(255, 87, 0);
+  font: 3vw "Roboto Slab", serif;
+  text-shadow: 3px 3px rgb(187, 10, 10); /* Cool! */
+  text-align: center;
+}
+
+.para-item {
+  order: 2;
+}
+
+#first-para {
+  font-size: 2vw;
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  order: 2;
+  flex-direction: column;
+}
+
+.about-subheading {
+  order: 1;
+}
+
+.about-subitem {
+  display: flex;
+  order: 2;
+}
+
+.image-container {
+  display: flex;
+  width: 25%;
+  margin: 0 4vw;
+}
+
+.img-item {
+  margin: 1.5vw;
+  /* align-self: center; */
+}
+
+#me-img {
+  max-width: 70%;
+  width: 70vw;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* .intro-item {
+} */
 
 .intro-text {
   font-size: 1.5vw;
   text-align: justify;
   width: 55vw;
-  margin: 8vw 0 8vw 40vw; /* all except right*/
+  margin-left: 3vw;
+  margin-top: 3vw;
   font-family: "Open Sans", sans-serif;
 }
 
-.intro-item {
+.skills-container {
+  display: flex;
+  order: 3;
 }
 
-.skill-container {
-  /* f */
+#languages {
+  font-size: 1.5vw;
+  margin: 4vw 0 8vw 0; /* top and bottom */
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
 }
