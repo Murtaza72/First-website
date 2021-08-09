@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/94a4ab411c.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/94a4ab411c.js" crossorigin="anonymous"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab&display=swap"
@@ -16,8 +16,15 @@
 </head>
 
 <body>
+    <div class="topnav">
+        <a href="#contact">Contact</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a class="active" href="#home">Home</a>
+    </div>
+
     <div class="container">
-        <div class="greet-container">
+        <div id="home" class="greet-container">
             <div class="main-title">
                 <h1 id="title">
                     Hello world, Welcome to my website!
@@ -33,7 +40,7 @@
             </div>
         </div>
 
-        <div class="about-container">
+        <div id="about" class="about-container">
             <div class="about-subheading">
                 <h2>
                     About me
@@ -46,7 +53,8 @@
                 <div class="intro-item">
                     <p class="intro-text">
                         If you're here, it means you're trying to understand a little more about me, so to do it,
-                        short here is my very concise description. I am a university student doing Bachelors in Computer
+                        short here is my very concise description. I am a university student doing Bachelors in
+                        Computer
                         Science and Engineering @ <a id="mit" href="https://mitwpu.edu.in/" target="_blank"
                             style="color: #bb0a0a;">MIT&#8209;WPU</a>, Pune.
                         I am a very <b>concise, pragmatic</b> and <b>calm</b> person ... no other adjectives come to
@@ -56,41 +64,47 @@
                 </div>
             </div>
         </div>
-        <!-- 
-        <div class="skills-container">
+
+        <div id="skills" class="skills-container">
             <div class="skills-subheading">
                 <h2>
                     Skills
                 </h2>
             </div>
-            <div class="skills-subtitle">
-                <h3>
-                    Languages
-                </h3>
-                <h3>
-                    Skill info
-                </h3>
-            </div>
-            <div class="language-item">
-                <ul id="languages">
-                    <li>Python</li>
-                    <li>MySQL</li>
-                    <li>C</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                </ul>
-            </div>
-            <div class="info-item">
-                <p class="skill-info">
-                    I'm familiar with each of the listed skills, even if the main one is
-                    <b>C++</b> and <b>Python</b>.
-                    As you can see for now I am specialized in programming, therefore I am a <b> developer</b>.
-                    And also, enhancing my problem solving skills day by day.
-                </p>
+            <div class="skills-subcontainer">
+                <div class="language-item">
+                    <h3 class="language-title">
+                        Languages
+                    </h3>
+                    <div class="language-subitem">
+                        <ul class="languages-list">
+                            <li>Python</li>
+                            <li>MySQL</li>
+                            <li>C</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <h3 class="info-title">
+                        Skill info
+                    </h3>
+                    <div class="skill-info">
+                        <p class="skill-info-text">
+                            I'm familiar with each of the listed skills, even if the main one is
+                            <b>Python</b>. As you can see for now I am specialized in programming, therefore
+                            I am a <b> developer</b>. And I'm also, trying to enchance my problem solving skills day
+                            by
+                            day.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
+    </div>
+    <!--
     <div class="footer-container">
         <footer>
             <p>Contact me on</p>
