@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="https://kit.fontawesome.com/94a4ab411c.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/94a4ab411c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab&display=swap"
@@ -16,14 +16,17 @@
 </head>
 
 <body>
-    <div class="topnav">
+
+    <div id="topnav">
         <a href="#contact">Contact</a>
         <a href="#skills">Skills</a>
         <a href="#about">About</a>
         <a class="active" href="#home">Home</a>
+        <script src="../script/script.js"></script>
     </div>
 
     <div class="container">
+
         <div id="home" class="greet-container">
             <div class="main-title">
                 <h1 id="title">
@@ -32,10 +35,11 @@
             </div>
             <div class="para-item">
                 <p id="first-para">
-                    <strong>
-                        Thank you for showing interest in visiting my website.<br />
-                        This is my first website and is still under development.<br />
-                    </strong>
+                    <b>
+                        Thank you for visiting my website. This is my first attempt at web development and is also kind
+                        of my portfolio if you will. Took some <i>"inspirations"</i> from places but the implementation
+                        was completely mine with some of googles and w3schools help(;
+                    </b>
                 </p>
             </div>
         </div>
@@ -53,12 +57,13 @@
                 <div class="intro-item-container">
                     <p class="intro-item">
                         If you're here, it means you're trying to understand a little more about me, so to do it,
-                        short here is my very concise description. I am a university student doing Bachelors in
-                        Computer Science and Engineering @ <a id="mit" href="https://mitwpu.edu.in/" target="_blank"
-                            style="color: #bb0a0a;">MIT&#8209;WPU</a>, Pune.
+                        short here is my very concise description. I am a university student doing
+                        <span class="green-bold">Bachelors in Computer Science and Engineering</span> @
+                        <a id="mit" href="https://mitwpu.edu.in/" target="_blank">MIT&#8209;WPU</a>, Pune.
                         I am a very <b>concise, pragmatic</b> and <b>calm</b> person ... no other adjectives come to
-                        mind. Summary in brief: a young resource still budding with a lot of curiosity and excellent
-                        skills.
+                        mind. <b>Summary in brief:</b>
+                        <span class="green-bold"> a young resource still
+                            budding with a lot of curiosity and excellent skills.</span>
                     </p>
                 </div>
             </div>
@@ -96,9 +101,10 @@
                     <div class="skill-info-conatiner">
                         <p class="skill-info">
                             I'm familiar with each of the listed skills, even if the main one is
-                            <b>Python</b>. As you can see for now I am specialized in programming, therefore
-                            I am a <b> developer</b>. And I'm also, trying to enchance my problem solving skills day
-                            by day.
+                            <span class="green-bold">Python</span>. As you can see for now I am
+                            specialized in programming, therefore
+                            I am a <span class="green-bold">developer</span>. And I'm also, trying
+                            to enchance my problem solving skills day by day.
                         </p>
                     </div>
                 </div>
@@ -106,18 +112,28 @@
         </div>
 
     </div>
-    <!--
-    <div class="footer-container">
-        <footer>
-            <p>Contact me on</p>
-            <p>
-                <a id="gmail" href="mailto:Murtazatuta72@gmail.com">Gmail</a>
-                <a class="fab fa-linkedin" href="https://linkedin.com/in/murtaza-tuta-796016218" target="_blank"></a>
-                <a class="fab fa-github" href="https://github.com/Murtaza72" target="_blank"></a>
-                <a class="fab fa-discord" href="https://discordapp.com/users/719068542632329297/" target="_blank"></a>
+
+    <div id="contact" class="contact-container">
+        <div class="contact-subheading">
+            <h2>
+                Contact
+            </h2>
+        </div>
+        <div class="gmail-container">
+            <p class="gmail-text">
+                You can contact me on
+                <a id="gmail" href="mailto:murtazatuta72@gmail.com">murtazatuta72@gmail.com</a>
             </p>
-        </footer>
-    </div> -->
+        </div>
+        <div class="icons">
+            <a class="icon" href="https://linkedin.com/in/murtaza-tuta-796016218" target="_blank">
+                <i class="fab fa-linkedin"></i></a>
+            <a class="icon" href="https://github.com/Murtaza72" target="_blank">
+                <i class="fab fa-github"></i></a>
+            <a class="icon" href="https://discordapp.com/users/719068542632329297/" target="_blank">
+                <i class="fab fa-discord"></i></a>
+        </div>
+    </div>
 
 </body>
 
