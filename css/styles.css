@@ -190,15 +190,20 @@ h3 {
 
 .language-item {
   order: 1;
+  display: flex;
+  flex-direction: column;
   width: 50%;
 }
-
+.language-title-container {
+  order: 1;
+}
 .language-title {
   text-align: center;
 }
 
-/* .language-list-container {
-} */
+.language-list-container {
+  order: 2;
+}
 
 .languages-list {
   display: flex;
@@ -216,10 +221,20 @@ div ul li {
 .info-item {
   order: 2;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-title-container {
+  order: 1;
 }
 
 .info-title {
   text-align: center;
+}
+
+.skill-info-container {
+  order: 2;
 }
 
 .skill-info {
@@ -282,37 +297,82 @@ div ul li {
 }
 
 @media screen and (max-width: 700px) {
+  h2 {
+    font-size: 5vw;
+  }
+
+  h3 {
+    font-size: 4.5vw;
+  }
+
+  .greet-container {
+    height: 60vw;
+  }
+
   #title {
     text-shadow: 1.5px 1.5px rgb(187, 10, 10);
+    font-size: 6vw;
+  }
+
+  .para-item {
+    margin-top: 0;
+  }
+
+  #first-para {
+    font-size: 4vw;
+    width: 80vw;
+    text-align: center;
+    margin-left: 10vw;
+  }
+
+  .about-container {
+    height: 90vw;
   }
 
   .about-subcontainer {
     flex-direction: column;
     margin-top: 2vw;
+    height: 80vw;
     /* justify-content: center;
     align-content: center; */
   }
 
   .about-subheading {
-    margin-left: 4vw; /* =44vw(40vw from h2 + 4vw) */
+    /* margin-left: 4vw; =44vw(40vw from h2 + 4vw) */
     margin-top: 2vw;
   }
 
   .image-container {
     align-self: center;
+    margin-right: 8vw;
+  }
+
+  #me-img {
+    max-width: 125%;
   }
 
   .intro-item-container {
     align-self: center;
   }
 
+  .intro-item {
+    font-size: 3vw;
+    text-align: justify;
+    width: 84vw;
+  }
+
+  .skills-container {
+    height: 95vw;
+  }
+
   .skills-subcontainer {
+    display: flex;
     flex-direction: column;
     margin-top: 0vw;
   }
 
   .skills-subheading {
-    margin-left: 4vw;
+    margin-left: 1vw;
     margin-top: 2vw;
   }
 
@@ -320,31 +380,50 @@ div ul li {
     margin-right: 3vw;
   }
 
-  .info-title {
-    margin-right: 2.5vw;
-  }
-
   .language-item {
     align-self: center;
+  }
+
+  div ul li {
+    font-size: 3vw;
+    font-family: "Open Sans", sans-serif;
   }
 
   .languages-list {
     margin-right: 13vw;
   }
 
+  .info-title {
+    margin-right: 3vw;
+  }
+
   .info-item {
     align-self: center;
   }
 
-  .contact-subheading {
-    margin-left: 4vw;
+  .skill-info-container {
+    align-self: center;
+  }
+
+  .skill-info {
+    font-size: 3vw;
+    width: 78vw;
+    /* padding-right: 10vw; */
+    /* margin-right: 100vw; */
+    font-family: "Open Sans", sans-serif;
   }
 
   .gmail-container {
-    margin-left: 8vw;
+    margin-left: 14vw;
+  }
+
+  .gmail-text {
+    font-size: 3vw;
+    font-family: "Open Sans", sans-serif;
+    text-align: justify;
   }
 
   .icons {
-    margin-left: 8vw;
+    margin-left: 14vw;
   }
 }
